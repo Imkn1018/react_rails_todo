@@ -9,5 +9,6 @@ import * as ActiveStorage from "@rails/activestorage"
 import "channels"
 
 Rails.start()
-Turbolinks.start()
+// コメントアウトしてターボリンクスの無効化
+// Turbolinks.start()
 ActiveStorage.start()
